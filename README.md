@@ -5,7 +5,7 @@ Deployed link [here!](https://github.com/facebook/create-react-app)
 
 ### In the project directory, run:
 
-#### `npm i`
+### `npm i`
 
 ### Then:
 
@@ -13,10 +13,10 @@ Deployed link [here!](https://github.com/facebook/create-react-app)
 
 
 
-### My process
+## My process
 
 
 
-### What I used
+## What I used
 
 
