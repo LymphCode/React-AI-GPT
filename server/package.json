@@ -1,0 +1,19 @@
+{
+  "name": "react-ai-gpt-server",
+  "version": "1.0.0",
+  "description": "Deployed link [here!](https://github.com/facebook/create-react-app) (application not delpoyed yet. Link will bring you to create react app fb etc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LymphCode/React-AI-GPT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LymphCode/React-AI-GPT/issues"
+  },
+  "homepage": "https://github.com/LymphCode/React-AI-GPT#readme"
+}
