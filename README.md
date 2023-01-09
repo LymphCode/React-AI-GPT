@@ -14,7 +14,7 @@ Deployed link [here!](https://github.com/facebook/create-react-app)
 
 
 ## My process
-
+This has been a fun rollercoster lol
 
 
 ## What I used
