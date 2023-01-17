@@ -15,7 +15,7 @@ Deployed link [here!](https://github.com/facebook/create-react-app)
 
 ## My process
 
-left video at 0:37:08
+left video at 0:45:33
 
 
 ## What I used
