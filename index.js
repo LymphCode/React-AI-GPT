@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const configuration = new Configuration({
   organization: "org-Sv5ywSdJVQU0pVE97V3fElmC",
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -17,17 +17,14 @@ const port = 3080
 
 app.post('/', async (req, res) => {
   const { message } = req.body;
-  console.log(message)
-  // const response = await openai.createCompletion({
-  //   model: "text-davinci-003",
-  //   prompt: "Say this is a test",
-  //   max_tokens: 7,
-  //   temperature: 0,
-  // });
-  // console.log(response.data.choices[0].text)
+  const response = await openai.createCompletion({
+    model: `${message}`,
+    prompt: "Say this is a test",
+    max_tokens: 100,
+    temperature: 0.5,
+  });
   res.json({
-    // data: response.data
-    data: message,
+    message: response.data.choices[0].text,
   })
 });
 
